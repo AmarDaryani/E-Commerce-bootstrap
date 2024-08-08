@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <title>Home</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+    <!-- navbar st -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="login.html" style="width: 7%;" ><img src="img/logo.png" class="w-100 "> </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 fs-5 " style="color: rgb(72, 74, 77); font-weight: 600;">
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="contact.html">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="categories.html">Categories</a>
+                <ul class="dropdown-menu lh-lg px-3" id="dropdown">
+                    <li><a class="dropdown-item" href="categories.html"><svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+                      </svg>Word Press</a></li>
+                    <li><a class="dropdown-item" href="categories.html"><svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+                      </svg>E-commerce</a></li>
+                    <li><a class="dropdown-item" href="categories.html"><svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+                      </svg>Site Templates</a></li>
+                    <li><a class="dropdown-item" href="categories.html"><svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+                      </svg>Marketing Templates</a></li>
+                    <li><a class="dropdown-item" href="categories.html"><svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+                      </svg>CMS Templates</a></li>
+                    <li><a class="dropdown-item" href="categories.html"><svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+                      </svg>Blogging Templates</a></li>
+                  <center>
+                    <li><a class="dropdown-item" href="categories.html"><button type="button" class="btn btn-outline-dark">More Templates<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+                      </svg></button></a></li>
+                    </center>
+                  </ul>
+              </li>
+
+
+
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="support.html">Support</a>
+                <ul class="dropdown-menu lh-lg px-3" id="dropdown">
+                  <li><a class="dropdown-item" href="support.html"><svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                      <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+                    </svg>Feedback</a></li>
+                  <li><a class="dropdown-item" href="support.html"><svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                      <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+                    </svg>Make call</a></li>
+                  <li><a class="dropdown-item" href="support.html"><svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                      <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+                    </svg>Help center</a></li>
+                  
+                </ul>
+              </li>
+
+
+
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="signup.html">Start Selling</a>
+                <ul class="dropdown-menu lh-lg px-3" id="dropdown">
+                  <li><a class="dropdown-item" href="signup.html"><svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                      <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+                    </svg>Your own website</a></li>
+                  <li><a class="dropdown-item" href="signup.html"><svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                      <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+                    </svg>Your company</a></li>
+                  <li><a class="dropdown-item" href="signup.html"><svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                      <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+                    </svg>Work with us</a></li>
+                  
+                </ul>
+              </li>
+
+
+
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="categories.html"><svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" fill="currentColor" class="bi bi-grid" viewBox="0 0 16 16">
+                    <path d="M1 2.5A1.5 1.5 0 0 1 2.5 1h3A1.5 1.5 0 0 1 7 2.5v3A1.5 1.5 0 0 1 5.5 7h-3A1.5 1.5 0 0 1 1 5.5zM2.5 2a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5zm6.5.5A1.5 1.5 0 0 1 10.5 1h3A1.5 1.5 0 0 1 15 2.5v3A1.5 1.5 0 0 1 13.5 7h-3A1.5 1.5 0 0 1 9 5.5zm1.5-.5a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5zM1 10.5A1.5 1.5 0 0 1 2.5 9h3A1.5 1.5 0 0 1 7 10.5v3A1.5 1.5 0 0 1 5.5 15h-3A1.5 1.5 0 0 1 1 13.5zm1.5-.5a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5zm6.5.5A1.5 1.5 0 0 1 10.5 9h3a1.5 1.5 0 0 1 1.5 1.5v3a1.5 1.5 0 0 1-1.5 1.5h-3A1.5 1.5 0 0 1 9 13.5zm1.5-.5a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5z"/>
+                  </svg>    Our Products</a>
+                  <ul class="dropdown-menu lh-lg px-3" id="dropdown">
+                    <li><a class="dropdown-item" href="categories.html"><svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+                      </svg>Web Applications</a></li>
+                    <li><a class="dropdown-item" href="categories.html"><svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+                      </svg>React website</a></li>
+                    <li><a class="dropdown-item" href="categories.html"><svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+                      </svg>Pure website</a></li>
+                    <li><a class="dropdown-item" href="categories.html"><svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+                      </svg>Applications</a></li>
+                    <li><a class="dropdown-item" href="categories.html"><svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+                      </svg>Softwares</a></li>
+                    
+                  </ul>
+              </li>
+
+
+              
+            </ul>
+            <form class="d-flex gap-4" role="search">
+              
+              <button class="btn btn-outline-primary" type="submit"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-box-arrow-in-right" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M6 3.5a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-2a.5.5 0 0 0-1 0v2A1.5 1.5 0 0 0 6.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-8A1.5 1.5 0 0 0 5 3.5v2a.5.5 0 0 0 1 0z"/>
+                <path fill-rule="evenodd" d="M11.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H1.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708z"/>
+              </svg><a href="login.html" class="text-decoration-none text-primary ">Login</a></button>
+              <button type="button" class="btn btn-primary"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22
+                " fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
+                <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6m2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0m4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4m-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10s-3.516.68-4.168 1.332c-.678.678-.83 1.418-.832 1.664z"/>
+              </svg><a href="signup.html" class="text-decoration-none text-light ">Get Started</a></button>
+              <button class="btn"><svg xmlns="http://www.w3.org/2000/svg" width="23 " height="23" fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16">
+                <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l1.313 7h8.17l1.313-7zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"/>
+              </svg></button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    <!-- navbar end -->
+     <!-- header st -->
+     <div class="alert text-center rounded-0 my-0" role="alert" style="background-color: rgb(3, 46, 2); color: white; ">
+        Let’s make an impact together to stand with the people of India.
+        <a href="signup.html" class="text-decoration-none text-white">Show Support<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+          </svg></a>
+      </div>
+     <!-- header end -->
+      <!-- heros st -->
+      <div class="px-4 py-5 my-0 text-center" style="background-color: rgb(5, 58, 3); color: white;">
+        
+        <h1 class="display-1 fw-bold text-body-light  " style="padding-top: 100px;">Create a website <br> without limits</h1>
+      
+        <div class="col-lg-6 mx-auto">
+          <p class="lead mb-4">Build and scale with confidence. From a powerful website builder to advanced business solutions—we’ve got you covered.</p>
+          <div class="d-flex flex-column align-items-center">
+            <button type="button" class="btn btn-light btn-lg px-4 gap-3">Get Started!<svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+              </svg></button><br>
+              <p class="lead mb-4" style="padding-bottom: 100px;">Try Unique Themes. NO credit card required.</p>
+            
+          </div>
+        </div>
+      </div>
+      <!-- heros end -->
+
+      <!-- imaginee st -->
+      
+      <div class="container col-xxl-8 px-4 py-5">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+          <div class="col-10 col-sm-8 col-lg-6">
+            <img src="img/img2.jpg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+          </div>
+          <div class="col-lg-6">
+            <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Let’s Make Your Imagination to Real</h1>
+            <p class="lead">Discover thousands of easy to customize themes, templates & CMS products, made by world-class developers.</p>
+            <div class="d-grid px-4 gap-2 d-md-flex justify-content-md-start">
+              <div class="col-auto ">
+                <label for="inputPassword2" class="visually-hidden">Search</label>
+                <input type="password" class="form-control" id="inputPassword2" placeholder="Search">
+              </div>
+              <button type="button" class="btn btn-primary btn-lg px-4 py-1 me-md-2">Search</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- imagine end -->
+
+      <!-- one platform st -->
+      <div class="container-fluid px-4 py-5 " id="featured-3" style="background-color: rgb(33, 37, 41); color: white;">
+        <h1 class="pb-2 " style="margin-left: 110px;">One platform,<br>
+          infinite possibilities</h1>
+        <div class="row g-4 py-5 row-cols-1 row-cols-lg-3 " style="margin-left: 100px; margin-right: 100px;">
+         
+          <div class="feature col">
+            <div class=" d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3 mx-5">             
+            </div>
+            <h3 class="fs-2 text-body-light">Featured title</h3>
+            <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
+            <a href="login.html" class="icon-link">
+              Call to action
+              <svg class="bi"><use xlink:href="#chevron-right"></use></svg>
+            </a>
+          </div>
+
+
+          <div class="feature col">
+            <div class=" d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+            </div>
+            <h3 class="fs-2 text-body-light">Featured title</h3>
+            <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
+            <a href="login.html" class="icon-link">
+              Call to action
+              <svg class="bi"><use xlink:href="#chevron-right"></use></svg>
+            </a>
+          </div>
+
+
+          <div class="feature col">
+            <div class=" d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+              
+            </div>
+            <h3 class="fs-2 text-body-light">Featured title</h3>
+            <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
+            <a href="login.html" class="icon-link">
+              Call to action
+              <svg class="bi"><use xlink:href="#chevron-right"></use></svg>
+            </a>
+          </div>
+          <div class="d-flex flex-column align-items-center " style=" margin-top: 100px;margin-left: -100px;">
+            <button type="button" class="btn btn-light btn-lg px-4 gap-3">Get Started!<svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+              </svg></button><br>
+              
+          </div>
+
+
+
+        </div>
+      </div>
+      <!-- one platform end -->
+       <!-- card st -->
+        <div class="container-fluid">
+          <h1 class="text-center m-5">Select Your Project catagory wise</h1>
+        </div>
+          <div class="container d-flex justify-content-center flex-wrap gap-5">
+            <div class="card p-4  border-0 overflow-hidden" id="card" style="width: 22rem; background-color: rgb(234, 235, 241);  ;">
+              <div class="card-body text-center" >
+                <h5 class="card-title ">WordPress Themes</h5>
+                <p class="card-text">Thousands of WordPress themes.</p>
+               <p class="d-flex justify-content-center gap-3"> 
+                <a href="categories.html"  >newest</a>
+                <a href="categories.html"> best seller</a>
+              </p>
+              </div>
+              <img src="img/wordpress.jpg" class="card-img-top" alt="..." id="cardimg">
+            </div>
+
+            <div class="card p-4  border-0 overflow-hidden" id="card" style="width: 22rem; background-color: rgb(234, 235, 241);  ;">
+              <div class="card-body text-center" >
+                <h5 class="card-title ">WordPress Themes</h5>
+                <p class="card-text">Thousands of WordPress themes.</p>
+               <p class="d-flex justify-content-center gap-3"> 
+                <a href="categories.html"  >newest</a>
+                <a href="categories.html"> best seller</a>
+              </p>
+              </div>
+              <img src="img/ecommerce.jpg" class="card-img-top" alt="..." id="cardimg">
+            </div>
+            
+            <div class="card p-4  border-0 overflow-hidden" id="card" style="width: 22rem; background-color: rgb(234, 235, 241);  ;">
+              <div class="card-body text-center" >
+                <h5 class="card-title ">WordPress Themes</h5>
+                <p class="card-text">Thousands of WordPress themes.</p>
+               <p class="d-flex justify-content-center gap-3"> 
+                <a href="categories.html"  >newest</a>
+                <a href="categories.html"> best seller</a>
+              </p>
+              </div>
+              <img src="img/site.jpg" class="card-img-top" alt="..." id="cardimg">
+            </div>
+          </div><br><br>
+
+          <div class="container d-flex justify-content-center flex-wrap gap-5">
+            <div class="card p-4  border-0 overflow-hidden" id="card" style="width: 22rem; background-color: rgb(234, 235, 241);  ;">
+              <div class="card-body text-center" >
+                <h5 class="card-title ">WordPress Themes</h5>
+                <p class="card-text">Thousands of WordPress themes.</p>
+               <p class="d-flex justify-content-center gap-3"> 
+                <a href="categories.html"  >newest</a>
+                <a href="categories.html"> best seller</a>
+              </p>
+              </div>
+              <img src="img/marketing.jpg" class="card-img-top" alt="..." id="cardimg">
+            </div>
+            <div class="card p-4  border-0 overflow-hidden" id="card" style="width: 22rem; background-color: rgb(234, 235, 241);  ;">
+              <div class="card-body text-center" >
+                <h5 class="card-title ">WordPress Themes</h5>
+                <p class="card-text">Thousands of WordPress themes.</p>
+               <p class="d-flex justify-content-center gap-3"> 
+                <a href="categories.html"  >newest</a>
+                <a href="categories.html"> best seller</a>
+              </p>
+              </div>
+              <img src="img/cms.jpg" class="card-img-top" alt="..." id="cardimg">
+            </div>
+            
+            <div class="card p-4  border-0 overflow-hidden" id="card" style="width: 22rem; background-color: rgb(234, 235, 241);  ;">
+              <div class="card-body text-center" >
+                <h5 class="card-title ">WordPress Themes</h5>
+                <p class="card-text">Thousands of WordPress themes.</p>
+               <p class="d-flex justify-content-center gap-3"> 
+                <a href="categories.html"  >newest</a>
+                <a href="categories.html"> best seller</a>
+              </p>
+              </div>
+              <img src="img/blog.jpg" class="card-img-top" alt="..." id="cardimg">
+            </div>
+          </div>
+
+        
+       <!-- card end -->
+
+
+       <!-- carosal st -->
+       <div class="container-fluid col-xxl-12 px-4 py-5 mt-5" style="background-color: rgb(33, 37, 41);">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+          <div class="col-10 col-sm-8 col-lg-6">
+            <div id="carouselExampleSlidesOnly" class="carousel slide rounded-1" data-bs-ride="carousel" style="box-shadow: rgba(239, 239, 241, 0.2) 0px 7px 29px 0px;">
+              <div class="carousel-inner rounded-3 ">
+                <div class="carousel-item active">
+                  <img src="img/slide1.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="img/slide2.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="img/slide3.jpg" class="d-block w-100" alt="...">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <h1 class="fs-1 fw-bold text-body-light lh-1 mb-3 text-center" style="color: white;">Unique themes and templates for every budget and every project.</h1><br>
+            <p class="lead text-center" style="color: white;">beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words..</p><br>
+            <div class="d-grid gap-2 d-md-flex justify-content-center">
+              <button type="button" class="btn btn-light btn-lg px-4 me-md-2 ">Primary<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+              </svg></button>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+       <!-- carosal end -->
+
+       <!-- heros st -->
+       <div class="container-fluid row align-items-center g-lg-5 py-5" style="padding: 100px;">
+        <div class="col-lg-7 text-center text-lg-start">
+          <h1 class="display-3 fw-bold lh-1 text-body-emphasis mb-3 text-center">Build more than
+            a website!</h1>
+          
+        </div>
+        <div class=" mx-auto col-lg-5">
+          <p class="col-lg-12 fs-5  " style="margin-top: 55px; text-align: left;">From selling online, starting a blog and organizing events to promoting
+            your business and building your community, create a website that can grow with you.</p>
+            <p><p><a href="#" class="link-dark fs-5">Get Started<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+            </svg></a></p></p>
+        </div>
+      </div>
+       <!-- heros end -->
+        <!-- img and div st -->
+         <div class=" d-flex  flex-wrap" style="text-align: right ;">
+          <div id="levender">
+            <img src="img/img02.jpg" >
+          </div>
+          <div class=" text-center text-lg-start  " style="background-color: rgb(218, 196, 251); ; padding-top: 20px;" id="levender" >
+            <h3 class="display-4 fw-bold text-body-emphasis mb-3 text-center m-5">And create it <br>
+              your way</h3>
+            <p class="col-lg-10 fs-5 m-5 " style=" color: gray; padding-left: 40px;">- Smart drag and drop editor <br>
+              - 1000’s of advanced design capabilities <br>  
+              - Custom domain, logo and more brand tools <br>
+              - Full-stack web dev tools for custom functionality <br>
+              - AI technology that creates a site for you <br>
+              </p>             
+              <div class="d-flex flex-column align-items-center">
+                <button type="button" class="btn btn-dark btn-lg px-4 gap-3">Get Started!<svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+                  </svg></button><br>                 
+          </div>
+         </div>
+         </div>
+        <!-- img and div end -->
+
+        <!-- web foundation st -->
+        <div class="container-fluid px-4 py-5" id="icon-grid" style="background-color: rgb(255, 249, 237);">
+          <h1  class="pb-2  fw-bolder  mt-5" style="font-size: 55px; padding-left: 120px;">A website foundation <br>
+            engineered for growth</h1><br>
+      
+          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3  g-4 py-5" style="padding-left: 80px;">
+            <div class="col d-flex align-items-start">
+              <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#bootstrap"></use></svg>
+              <div>
+                <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Faster loading</h3>
+                <p>Unique Themes is designed for performance so your site loads faster.</p>
+              </div>
+            </div>
+            <div class="col d-flex align-items-start">
+              <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#cpu-fill"></use></svg>
+              <div>
+                <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Built with SEO in mind</h3>
+                <p>Get the SEO capabilities you need to optimize your site for search visibility.</p>
+              </div>
+            </div>
+            <div class="col d-flex align-items-start">
+              <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#calendar3"></use></svg>
+              <div>
+                <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Enterprise-grade security</h3>
+                <p>We keep your site and visitors’ data protected, 24/7.</p>
+              </div>
+            </div> 
+            <div class="col d-flex align-items-start">
+              <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#toggles2"></use></svg>
+              <div>
+                <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Resilient infrastructure</h3>
+                <p>Multi-cloud hosting ensures 99.9% uptime, even during traffic spikes.</p>
+              </div>
+            </div>
+            <div class="col d-flex align-items-start">
+              <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#geo-fill"></use></svg>
+              <div>
+                <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Accessible for everyone</h3>
+                <p>Make your own website inclusive with built-in accessibility tools.</p>
+              </div>
+            </div> 
+          </div>
+          <div class="d-flex flex-wrap " style="margin-left: 120px ; margin-top: 20px;">
+            <button type="button" class="btn btn-dark btn-lg px-4 gap-3">Get Started!<svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+              </svg></button><br>                 
+          </div>
+        </div>
+        <!-- web foundation end -->
+         <!-- heading st -->
+            <div>
+              <h1 class="text-center m-5 fw-bolder " style="font-size: 60px;">Take your business where <br> 
+                it needs to go</h1>
+            </div>
+         <!-- heading end -->
+
+          <!--  2 card st -->
+            <div class=" container py-5 flex-wrap d-flex justify-content-center  " style="gap: 120px;" >
+          <div class="card border-0" >
+            <img src="img/business1.jpg" class="card-img-top" style="height: 450px; width: 450px;;">
+            <div class="card-body">
+              <h5 class="card-title fs-3">eCommerce</h5>
+              <p class="card-text fs-5">Sell online and manage your business with <br> powerful eCommerce solutions.</p>
+              <p><a href="login.html" class="link-dark">Dark link <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+              </svg></a></p>
+            </div>
+          </div>
+          <div class="card border-0" >
+            <img src="img/business2.jpg" class="card-img-top" style="height: 450px; width: 450px; " >
+            <div class="card-body ">
+              <h5 class="card-title fs-3">Blog</h5>
+              <p class="card-text fs-5">Create a free blog, grow a loyal <br> braudience and monetize your content.</p>
+              <p><a href="login.html" class="link-dark">Dark link <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+              </svg></a></p>
+            </div>
+          </div>
+        </div>
+
+        <div class=" container py-5 flex-wrap d-flex justify-content-center  " style="gap: 120px;" >
+          <div class="card border-0" >
+            <img src="img/business3.jpg" class="card-img-top" style="height: 450px; width: 450px;;">
+            <div class="card-body">
+              <h5 class="card-title fs-3">Scheduling Software</h5>
+              <p class="card-text fs-5">Offer your services and deliver <br> a seamless booking experience for <br>your clients</p>
+              <p><a href="login.html" class="link-dark">Dark link <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+              </svg></a></p>
+            </div>
+          </div>
+          <div class="card border-0" >
+            <img src="img/business4.jpg" class="card-img-top" style="height: 450px; width: 450px; " >
+            <div class="card-body ">
+              <h5 class="card-title fs-3">Portfolio</h5>
+              <p class="card-text fs-5">Increase your visibility and attract <br> new clients with your work.</p>
+              <p><a href="login.html" class="link-dark">Dark link <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+              </svg></a></p>
+            </div>
+          </div>
+        </div>
+
+        <div class=" container py-5 flex-wrap d-flex justify-content-center  " style="gap: 120px;" >
+          <div class="card border-0" >
+            <img src="img/business5.jpg" class="card-img-top" style="height: 450px; width: 450px;;">
+            <div class="card-body">
+              <h5 class="card-title fs-3">Domain and Hosting</h5>
+              <p class="card-text fs-5">Get scalable, free web hosting when you <br> create your own website, and connect a <br>professional domain name.</p>
+              <p><a href="login.html" class="link-dark">Dark link <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+              </svg></a></p>
+            </div>
+          </div>
+          <div class="card border-0" >
+            <img src="img/business6.jpg" class="card-img-top" style="height: 450px; width: 450px; " >
+            <div class="card-body ">
+              <h5 class="card-title fs-3">Branding Tools</h5>
+              <p class="card-text fs-5">Establish a strong brand identity with a <br> customizable logo, color and text themes,<br> and more.
+
+              </p>
+              <p><a href="login.html" class="link-dark">Dark link <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+              </svg></a></p>
+            </div>
+          </div>
+        </div>
+        
+          <!--  2 card end -->
+            <!-- footer st -->
+            <div class="container-fluid p-5  " style="background-color: rgb(255, 249, 237);">
+              <footer class="py-5">
+                <div class="row">
+                  
+                  <div class="col-6 col-md-2 mb-3">
+                    <h5>Products</h5>
+                    <ul class="nav flex-column">
+                      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">website Templates</a></li>
+                      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Website Templates</a></li>
+                      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Website design
+                      </a></li>
+                      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">unique themes features</a></li>
+                      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">APP Market</a></li>
+                      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary"> web hosting</a></li>
+                      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">domain names</a></li>
+                      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary"> mobile app builder</a></li>
+                      
+                    </ul>
+                  </div>
+                  
+                  <div class="col-6 col-md-2 mb-3">
+                    <h5>Solution</h5>
+                    <ul class="nav flex-column">
+                      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">online store</a></li>
+                      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">online booking</a></li>
+                      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">blog website</a></li>
+                      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">portfolio website</a></li>
+                      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">enterprises solutions</a></li>
+                      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">student website</a></li>
+                      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">professional Tools</a></li>
+                      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">business email</a></li>
+                    </ul>
+                  </div>
+
+
+                  <div class="col-6 col-md-2 mb-3">
+                    <h5>Learn</h5>
+                    <ul class="nav flex-column">
+                      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">privacy and security hub</a></li>
+                      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">unique themes blog</a></li>
+                      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">seo learning hub</a></li>
+                      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">unique Themes</a></li>
+                      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Enclopydia</a></li>
+                    </ul>
+                  </div>
+
+                  <div class="col-6 col-md-2 mb-3">
+                    <h5>Support</h5>
+                    <ul class="nav flex-column">
+                      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">help center</a></li>
+                      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">hire a professional</a></li>
+                      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">report abuse</a></li>
+                      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">system</a></li>
+                    
+                    </ul>
+                  </div>
+
+                  <div class="col-6 col-md-3 mb-3">
+                    <h5>Section</h5>
+                    <ul class="nav flex-column">
+                      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">press media</a></li>
+                      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">investors</a></li>
+                      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">site map</a></li>
+                      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">career</a></li>
+                    </ul>
+                  </div>
+
+                  
+
+            
+                <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+                  <p>© 2024 Company, Inc. All rights reserved.</p>
+                  <ul class="list-unstyled d-flex">
+                    <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a></li>
+                    <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
+                    <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
+                  </ul>
+                </div>
+              </footer>
+            </div>
+            <!-- footer end -->
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+    <!-- completed -->
+</body>
+</html>

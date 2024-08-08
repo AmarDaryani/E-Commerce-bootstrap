@@ -1,0 +1,29 @@
+nav ul li:hover #dropdown{
+    display: block;
+}
+#dropdown li:hover{
+    transform: translateX(10px);
+}
+#dropdown li{
+    transition: all 0.4s ease;
+}
+#card:hover{
+    background-color: white !important; 
+}
+#cardimg{
+    transform: translateY(55px);
+    transition: all 0.4s ease;
+}
+#card:hover #cardimg{
+    transform: translateY(30px);                    
+}
+
+@media only screen and (max-width:1538px){
+    #levender{
+        width: 100%;
+    }
+    #levender img{ 
+        width: 100%;
+    }
+
+}

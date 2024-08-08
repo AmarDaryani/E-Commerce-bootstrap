@@ -1,0 +1,9 @@
+nav ul li:hover #dropdown{
+    display: block;
+}
+#dropdown li:hover{
+    transform: translateX(10px);
+}
+#dropdown li{
+    transition: all 0.4s ease;
+}
